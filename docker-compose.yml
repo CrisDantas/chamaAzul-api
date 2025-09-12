@@ -2,15 +2,16 @@ version: '3.7'
 
 services:
   postgres:
+    container_name: chamaazul-postgres 
     image: bitnami/postgresql:latest
     ports:
-      - '5432:5432'
+      - '5433:5432' 
     environment:
       - POSTGRES_USER=docker
       - POSTGRES_PASSWORD=docker
-      - POSTGRES_DB=pizzashop
+      - POSTGRES_DB=chamaazul
     volumes:
-      - postgres_data:/bitnami/postgresql
+      - chamaazul_postgres_data:/bitnami/postgresql
 
 volumes:
-  postgres_data:
+  chamaazul_postgres_data: 
