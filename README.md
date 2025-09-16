@@ -1,6 +1,6 @@
-# 🍕 pizza.shop API
+# chama.azul API
 
-Food delivery app (aka. iFood/Uber Eats) back-end built with TypeScript, Drizzle a ElysiaJS.
+service management app, back-end built with TypeScript, Drizzle a ElysiaJS.
 
 > 🔥 This project aims to keep runtime agnostic, this means it should work on Bun, Node, Cloudflare Workers or any Web Standard API compatible runtime.
 
